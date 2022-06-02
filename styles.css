@@ -52,6 +52,10 @@ header.intro{
   max-width:20rem;  
 }
 
+.title{
+  background-color:white;
+}
+
 /*members*/
 div.container{
   width:100%;
