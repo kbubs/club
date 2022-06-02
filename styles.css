@@ -1,0 +1,102 @@
+/*body*/
+body{
+  background-color:pink;
+}
+
+
+/*nav*/
+.navcontain{
+  display:block;
+  background-color:purple;
+  color:white;
+  position:fixed;
+  top:0px;
+  width:100%;
+  z-index:100;
+  padding: 1.5rem;
+  margin-top:0;
+}
+.navcontain li{
+  list-style-type:none;
+  padding-right:1rem;
+  padding-left:1rem;
+  margin-left:1rem;
+  border:1px solid purple;
+  width:100%;
+  margin-left:0;
+  font-size:1.5rem;
+}
+a{
+  color:white;
+  text-decoration:none;
+}
+
+
+/*header*/
+header{
+  width:auto;
+
+}
+
+header.intro{
+  width:100%;
+  position:relative;
+  top:7.5rem;
+  text-align:center;
+  display:block;
+}
+
+.intro img{
+  height:auto;
+  width:50%;
+  max-width:20rem;  
+}
+
+/*members*/
+div.container{
+  width:100%;
+  display:block;
+}
+.members{
+  position:relative;
+  top: 8rem;
+}
+ .gallery img{
+  height:auto;
+  width:8rem;
+}
+.gallery{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+}
+figcaption{
+  text-align:center;
+}
+.container {
+  text-align:center;
+  background-color:white;
+  
+}
+/*describe and contact.  */
+.do{
+  position:relative;
+  width:auto;
+  top:8rem;
+  text-align:center;
+  
+}
+.do h3{
+  font-size:2rem;
+  text-align:center;
+  background-color:white;
+}
+.do h4{
+  background-color:white;
+}
+
+.van{
+  display:flex;
+  justify-content:center;
+}
+
