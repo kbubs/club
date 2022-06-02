@@ -102,5 +102,11 @@ figcaption{
 .van{
   display:flex;
   justify-content:center;
+  width:auto;
 }
+.van img{
+  width:95%;
+  height:auto;
+}
+
 
